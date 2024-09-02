@@ -1,0 +1,12 @@
+.monaco__container {
+    width: 100%;
+    border: 1px solid grey;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+.overflow-auto {
+    overflow: auto;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/chota@latest">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.6/require.min.js"></script>
+    <title>Markdown to HTML</title>
+</head>
+<body>
+    <h2 class="text-center">Markdown To HTML</h2>
+    <div class="is-center mb-1">
+        <a id="preview__btn" class="button outline">Preview</a>
+        <a id="html__btn" class="button outline">HTML</a>
+        <a id="download__btn" class="button outline">Download</a>
+    </div>
+    <div class="row is-center is-marginless">
+        <div class="col-6">
+            <div id="editor__container" class="monaco__container is-full-screen"></div>
+        </div>
+        <div class="col-6">
+            <div id="preview__container" class="monaco__container overflow-auto is-full-screen"></div>
+        </div>
+    </div>
+    
+    <script src="app/app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/monaco-editor/0.20.0/min/vs/loader.min.js"></script>
+</body>
+</html>
